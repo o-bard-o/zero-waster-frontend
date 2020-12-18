@@ -1,0 +1,7 @@
+<svg id="shop-nav" xmlns="http://www.w3.org/2000/svg" width="299" height="52" viewBox="0 0 299 52">
+  <text id="Lifestyle" transform="translate(270 31)" fill="#a6bcd0" font-size="16" font-family="AcuminProSemiCond-Medium, Acumin Pro SemiCondensed" font-weight="500" letter-spacing="-0.01em"><tspan x="-27.536" y="0">Lifestyle</tspan></text>
+  <text id="Grain" transform="translate(186 31)" fill="#a6bcd0" font-size="16" font-family="AcuminProSemiCond-Medium, Acumin Pro SemiCondensed" font-weight="500" letter-spacing="-0.01em"><tspan x="-17.912" y="0">Grain</tspan></text>
+  <rect id="active-tab" width="94" height="52" rx="26" transform="translate(49)" fill="#548d7c"/>
+  <text id="Fruit" transform="translate(96 31)" fill="#fff" font-size="16" font-family="AcuminProSemiCond-Medium, Acumin Pro SemiCondensed" font-weight="500" letter-spacing="-0.01em"><tspan x="-14.92" y="0">Fruit</tspan></text>
+  <text id="All" transform="translate(9 31)" fill="#a6bcd0" font-size="16" font-family="AcuminProSemiCond-Medium, Acumin Pro SemiCondensed" font-weight="500" letter-spacing="-0.01em"><tspan x="-8.448" y="0">All</tspan></text>
+</svg>
