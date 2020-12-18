@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../../components/Navbar";
+import {NavLink} from "react-router-dom";
 import styled from "styled-components";
 import x3 from "./assets/x3.png";
 import header from "./assets/header.png";
@@ -15,7 +16,7 @@ export default class Main extends React.Component {
             <>
             <Bg/>
             <MainContainer>
-                <Jigoo/>
+                <NavLink to="/shop"><Jigoo/></NavLink>
                 <ShopStyle><b>지구샵</b><br/>주방, 욕실용품 등 친환경 생활용품 판매</ShopStyle>
                 <Picker/>
                 <ShopStyle><b>더 피커</b><br/>곡물, 과일 등 식재료 및 친환경 생활용품 판매</ShopStyle>

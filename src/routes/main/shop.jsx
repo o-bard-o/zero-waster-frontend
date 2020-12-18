@@ -1,16 +1,20 @@
 import React from "react"
 import Navbar from "../../components/Navbar";
 import styled from "styled-components";
+import {NavLink} from "react-router-dom";
 import x3 from "./assets/x3.png";
 import header from "./assets/header.png";
 import tabbednav from "./assets/shop-nav.svg";
-
+import products from "./assets/products.svg";
 
 export default class Shop extends React.Component {
     render() {
         return (
             <>
                 <Bg/>
+                <MainContainer>
+                    <NavLink to = "/pDetailed"><Products/></NavLink>
+                </MainContainer>
                 <Header>
                     <TextStyle>
                         지구샵
@@ -70,11 +74,12 @@ const TextStyle = styled.p`
     margin-top: 50px;
     color: rgb(116, 138, 157);
 `
-const Jigoo = styled.div`
+const Products = styled.div`
     margin-top: 213px;
-    width: 319px;
-    height: 215px;
+    width: 345px;
+    height: 440px;
     border-radius: 10px;
     background-position: center;
+    background-image: url(${products});
     background-repeat: no-repeat;
 `
