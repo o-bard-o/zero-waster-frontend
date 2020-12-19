@@ -45,13 +45,21 @@ Intro.defaultProps = {}
 const IntroContainer = styled.div`
     display:flex;
     flex-direction:column; 
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url(${x3});
     width:100%;
     height: 100vh;
 `;
 
+const Background = styled.div`
+    position: absolute;
+    box-sizing: content-box;
+    background-image: url(${x3});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+`
 const Vector = styled.div`
     position: absolute;
     box-sizing: content-box;
